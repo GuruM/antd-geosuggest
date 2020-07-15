@@ -1,5 +1,5 @@
 {
-  "name": "antd-geosuggest",
+  "name": "antd-geosuggest-2",
   "version": "0.3.3",
   "description": "Antd based geo suggestion for Google maps places API",
   "homepage": "",
@@ -61,8 +61,6 @@
     "build": "npm run build:es5 && npm run build:flow",
     "prepublish": "npm run clean && npm run check:src && npm run build",
     "check:src": "npm run lint && npm run test",
-    "test": "jest",
-    "test:watch": "jest --watch",
     "start": "./node_modules/.bin/webpack-dev-server --config webpack.config.dev.js --mode development",
     "gh-pages:clean": "rimraf _gh-pages && ncp ./docs ./_gh-pages",
     "gh-pages:build": "cross-env BABEL_ENV=production ./node_modules/.bin/webpack --config webpack.config.ghPage.js",
@@ -73,7 +71,7 @@
   "pre-commit": [
     "lint"
   ],
-  "repository": "chilijung/antd-geosuggest",
+  "repository": "gurum/antd-geosuggest",
   "peerDependencies": {
     "antd": "^3.4.1",
     "react": "^0.14.0 || ^15.0.0 || 16.x",
