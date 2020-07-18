@@ -1,6 +1,6 @@
 {
   "name": "antd-geosuggest-2",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Antd based geo suggestion for Google maps places API",
   "homepage": "",
   "author": {
@@ -73,7 +73,7 @@
   ],
   "repository": "gurum/antd-geosuggest",
   "peerDependencies": {
-    "antd": "^3.4.1",
+    "antd": ">=3.4.1",
     "react": "^0.14.0 || ^15.0.0 || 16.x",
     "react-dom": "^0.14.0 || ^15.0.0 || 16.x"
   },
